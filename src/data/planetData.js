@@ -1,0 +1,35 @@
+export const PLANET_DETAILS = {
+  earth: {
+    id: "earth",
+    name: "Earth",
+    tagline: "Our Blue Marble",
+    type: "Terrestrial Planet",
+    color: "#3b82f6",
+    description: "Our home planet is the third planet from the Sun, and the only place we know of so far that's inhabited by living things.",
+    distanceFromSun: "149.6M km",
+    diameter: "12,742 km",
+    temperature: "15° C",
+  },
+  mars: {
+    id: "mars",
+    name: "Mars",
+    tagline: "The Red Planet",
+    type: "Terrestrial Planet",
+    color: "#ef4444",
+    description: "Mars is a dusty, cold, desert world with a very thin atmosphere.",
+    distanceFromSun: "227.9M km",
+    diameter: "6,779 km",
+    temperature: "-62° C",
+  },
+  jupiter: {
+    id: "jupiter",
+    name: "Jupiter",
+    tagline: "King of the Solar System",
+    type: "Gas Giant",
+    color: "#eab308",
+    description: "Jupiter is more than twice as massive as all the other planets combined.",
+    distanceFromSun: "778.5M km",
+    diameter: "139,820 km",
+    temperature: "-110° C",
+  }
+};
